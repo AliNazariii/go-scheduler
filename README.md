@@ -24,7 +24,7 @@ func main() {
 	scheduler := scheduler.NewScheduler()
 
 	// Schedule a job to run in 5 seconds
-  job1 := scheduler.AddJob(scheduler.Job{
+        job1 := scheduler.AddJob(scheduler.Job{
 		Function: func() {
 			fmt.Println("Job 1 executed")
 		},
@@ -32,7 +32,7 @@ func main() {
 	})
 
 	// Schedule a job to run in 10 seconds
-	job1 := scheduler.AddJob(scheduler.Job{
+	job2 := scheduler.AddJob(scheduler.Job{
 		Function: func() {
 			fmt.Println("Job 2 executed")
 		},
