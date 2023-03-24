@@ -16,7 +16,7 @@ package main
 import (
 	"fmt"
 	"time"
-  "scheduler/pkg/scheduler"
+        "scheduler/pkg/scheduler"
 )
 
 func main() {
